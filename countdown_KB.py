@@ -402,7 +402,7 @@ elif selected_main_menu == "Q&A" :
                             with st.empty() :
                                 st.markdown(f'<p class="big-font">{timer20}</p>', unsafe_allow_html=True)
                             time.sleep(1)
-                            t2 -= 1
+                            t20 -= 1
                     
                         else :
                             with st.empty():
